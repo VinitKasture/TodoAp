@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+    min-height: 400px;
+    background-color: #845EC2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container h1 {
+    margin: 10px 0 10px 0;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+form input {
+    width: 400px;
+    height: 40px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+}
+
+form #submit {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    background-color: #a383d8;
+}
+
+.tasklist h2 {
+    margin: 20px 0 5px 0;
+    color: #fff;
+}
+
+.tasklist .tasks .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.tasklist .tasks .content input {
+    width: 355px;
+    height: 40px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #4B4453;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+}
+
+.tasklist .tasks .content input:not(readonly) {
+    color: rgb(255, 60, 60);
+}
+
+.tasklist .tasks .content input:read-only {
+    color: #4B4453;
+}
+
+.tasklist .actions {
+    display: flex;
+}
+
+.tasklist .actions button {
+    padding: 10px 15px;
+    margin: 2px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+
+.actions .delete {
+    background-color: #fa4984;
+}
+
+.actions .edit {
+    background-color: #a383d8;
+}
