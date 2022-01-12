@@ -11,14 +11,16 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
+    overflow: scroll;
 }
 
 .container {
-    padding: 1rem;
-    width: fit-content;
-    height: fit-content;
+    padding: 16px;
+    width: 540px;
+    height: 450px;
     min-height: 400px;
     background-color: #845EC2;
+    overflow: scroll;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -29,6 +31,10 @@ body {
 
 button:hover {
     cursor: pointer;
+}
+
+form {
+    width: 540px;
 }
 
 form input {
